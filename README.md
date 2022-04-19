@@ -1,11 +1,10 @@
 # My Personal Dotfiles
 
----
-
 **Warning**:This is my personal dotfiles don't copy unless you know what you are doing
 
+---
 
-#### Vim Setup
+## Vim Setup
 
 [vim plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
 
