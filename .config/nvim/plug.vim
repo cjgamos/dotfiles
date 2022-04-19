@@ -9,6 +9,8 @@ Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
+  Plug 'kristijanhusak/defx-git'
+  Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'neovim/nvim-lspconfig'
   Plug 'williamboman/nvim-lsp-installer'
