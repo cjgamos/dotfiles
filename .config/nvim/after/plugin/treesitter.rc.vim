@@ -4,6 +4,7 @@ if !exists('g:loaded_nvim_treesitter')
 endif
 
 lua << EOF
+local ts_utils = require("nvim-treesitter.ts_utils")
 require 'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
@@ -25,7 +26,10 @@ require 'nvim-treesitter.configs'.setup {
     "scss",
     "python",
     "javascript"
-  }
+  },
+  --autotag = {
+    --enable = true,
+  --}
 }
 
 EOF

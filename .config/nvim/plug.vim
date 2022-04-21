@@ -6,7 +6,6 @@ call plug#begin()
 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-Plug 'cohama/lexima.vim'
 
 if has("nvim")
   Plug 'neovim/nvim-lspconfig'
@@ -21,6 +20,9 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'hoob3rt/lualine.nvim'
+  Plug 'windwp/nvim-autopairs'
+  Plug 'windwp/nvim-ts-autotag'
+  Plug 'alvan/vim-closetag'
 endif
 
 call plug#end()
