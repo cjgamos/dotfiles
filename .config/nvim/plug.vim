@@ -21,7 +21,6 @@ if has("nvim")
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'hoob3rt/lualine.nvim'
   Plug 'windwp/nvim-autopairs'
-  Plug 'windwp/nvim-ts-autotag'
   Plug 'alvan/vim-closetag'
 endif
 
