@@ -25,6 +25,7 @@ require 'nvim-treesitter.configs'.setup {
     "scss",
     "python",
     "javascript"
-    }
+  }
 }
+
 EOF
