@@ -27,9 +27,9 @@ require 'nvim-treesitter.configs'.setup {
     "python",
     "javascript"
   },
-  --autotag = {
-    --enable = true,
-  --}
+  autotag = {
+    enable = true,
+  }
 }
 
 EOF

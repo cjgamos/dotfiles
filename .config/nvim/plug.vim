@@ -21,12 +21,12 @@ if has("nvim")
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'hoob3rt/lualine.nvim'
   Plug 'windwp/nvim-autopairs'
-  Plug 'alvan/vim-closetag'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'L3MON4D3/LuaSnip'
   Plug 'folke/lsp-colors.nvim'
+  Plug 'windwp/nvim-ts-autotag'
 endif
 
 call plug#end()

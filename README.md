@@ -14,6 +14,8 @@
 
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim coded in Lua
 
+[nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - autoclose and autorename html tag
+
 [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) - A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI
 
 [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) - An LSP server installer
