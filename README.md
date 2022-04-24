@@ -25,8 +25,9 @@
 
 [defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer
 
-## Zsh Plugins
 ---
+
+## Zsh Plugins
 
 ### Autocomplete 
 Git Clone the `zsh-autocomplete` plugin in the OhMyZsh plugin folder.
