@@ -1,0 +1,4 @@
+[user]
+	email = gamoscj123@gmail.com
+[credential]
+	helper = libsecret
