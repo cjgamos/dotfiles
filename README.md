@@ -24,3 +24,48 @@
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
 
 [defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer
+
+## Zsh Plugins
+---
+
+### Autocomplete 
+Git Clone the `zsh-autocomplete` plugin in the OhMyZsh plugin folder.
+
+```
+$ sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Once that is done, add the plugin in the `~/.zshrc` file's plugin list.
+```
+plugins=(
+  ...
+  zsh-autosuggestions
+)
+```
+
+### Zsh Syntax Highlighting
+Git Clone the `zsh-syntax-highlighting` plugin in the OhMyZsh plugin folder.
+
+```
+$ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+And once again add it in the plugins list of the `.zshrc` file.
+
+```
+plugins=(
+  ... 
+  zsh-syntax-highlighting
+)
+```
+> Note: To reflect every change you make, do `source ~/.zshrc` in the terminal.
+
+
+
+
+
+
+
+
+
+
