@@ -1,6 +1,6 @@
 # My Personal Dotfiles
 
-**Warning**:This is my personal dotfiles don't copy unless you know what you are doing
+**Warning**: This is my personal dotfiles don't copy unless you know what you are doing
 
 ---
 ## i3wm Dependencies / Configs
