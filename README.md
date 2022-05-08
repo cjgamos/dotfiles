@@ -47,6 +47,15 @@
 
 ---
 
+## Installation
+
+> If you really want to install it. Make sure you understand everything.
+> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO...** 
+
+Copy paste this code, then just move the files.
+```
+git clone https://github.com/cjgamos/dotfiles.git
+```
 ## Zsh Plugins
 
 ### Autocomplete 
@@ -80,16 +89,6 @@ plugins=(
 )
 ```
 > Note: To reflect every change you make, do `source ~/.zshrc` in the terminal.
-
-## Installation
-
-> If you really want to install it. Make sure you understand everything.
-> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO...** 
-
-Copy paste this code, then just move the files.
-```
-git clone https://github.com/cjgamos/dotfiles.git
-```
 
 ---
 
