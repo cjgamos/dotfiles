@@ -81,6 +81,16 @@ plugins=(
 ```
 > Note: To reflect every change you make, do `source ~/.zshrc` in the terminal.
 
+---
+## Installation
+
+> If you really want to install it. Make sure you understand everything.
+> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO** 
+
+Copy paste this code, then just move the files.
+```
+git clone https://github.com/cjgamos/dotfiles.git
+```
 
 ---
 
@@ -91,17 +101,7 @@ plugins=(
 ![image2](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/2.png)
 ![image3](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/3.png)
 
----
-## Installation
 
-> If you really want to install it. Make sure you understand everything.
-
-Copy paste this code, then just move the files.
-
-> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO** 
-```
-git clone https://github.com/cjgamos/dotfiles.git
-```
 
 
 
