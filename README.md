@@ -3,7 +3,27 @@
 **Warning**:This is my personal dotfiles don't copy unless you know what you are doing
 
 ---
-test
+## i3wm Dependencies / Configs
+
+[i3wm](https://i3wm.org/) - A tiling window manager, completely written from scratch.
+
+[Polybar](https://github.com/polybar/polybar) - A fast and easy-to-use tool for creating status bars.
+
+[Rofi](https://github.com/davatorium/rofi) - A window switcher, Application launcher and dmenu replacement.
+
+[Picom](https://github.com/ibhagwan/picom/tree/next-rebase) - a compositor for X, and a fork of [Compton](https://github.com/yshui/picom/blob/next/History.md).
+
+[Alacritty](https://github.com/alacritty/alacritty) - A fast, cross-platform, OpenGL terminal emulator
+
+[Nitrogen](https://wiki.archlinux.org/title/Nitrogen) - A fast and lightweight (GTK2) desktop background browser and setter for X Window.
+
+[Scrot](https://github.com/resurrecting-open-source-projects/scrot) - A command line screen capture utility
+
+[Ranger](https://github.com/ranger/ranger) - A console file manager with VIM key bindings. It provides a minimalistic and nice curses interface with a view on the directory hierarchy.
+
+
+---
+
 ## Vim Setup
 
 [vim plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
@@ -23,7 +43,7 @@ test
  
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
 
-[defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer
+[defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer for Neovim
 
 ---
 
@@ -62,8 +82,11 @@ plugins=(
 > Note: To reflect every change you make, do `source ~/.zshrc` in the terminal.
 
 
+---
 
+## Screenshots
 
+![image1](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Left.png)
 
 
 
