@@ -85,7 +85,7 @@ plugins=(
 ## Installation
 
 > If you really want to install it. Make sure you understand everything.
-> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO** 
+> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO...** 
 
 Copy paste this code, then just move the files.
 ```
