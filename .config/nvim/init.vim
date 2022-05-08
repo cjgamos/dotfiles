@@ -131,13 +131,13 @@ runtime ./maps.vim
 " ---------------------------------------------------------------------
 
 " true color
-if exists("&termguicolors") && exists("&winblend")
-  syntax enable
-  set termguicolors
-  set winblend=0
-  set wildoptions=pum
-  set pumblend=5
-  set background=dark
+"if exists("&termguicolors") && exists("&winblend")
+"  syntax enable
+"  set termguicolors
+"  set winblend=0
+"  set wildoptions=pum
+"  set pumblend=5
+"  set background=dark
 
   " Use NeoSolarized
   "let g:neosolarized_termtrans=1
@@ -145,10 +145,25 @@ if exists("&termguicolors") && exists("&winblend")
   "colorscheme NeoSolarized
 
   " Use Gruvbox
-  let g:gruvbox_termtrans=1
-  runtime ./colors/Gruvbox.vim
-  colorscheme Gruvbox
+"  let g:gruvbox_termtrans=1
+"  runtime ./colors/gruvbox.vim
+"  colorscheme gruvbox
+"endif
+
+
+"""""""""""""""""""""""""""""""""""""
+""      Personal Color Scheme      
+"""""""""""""""""""""""""""""""""""""
+
+if (has("termguicolors"))
+  set termguicolors
 endif
+
+" turn syntax highlighting on
+syntax enable
+
+set background=dark
+colorscheme gruvbox
 
 "}}}
 
