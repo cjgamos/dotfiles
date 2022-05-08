@@ -87,12 +87,22 @@ plugins=(
 ## Screenshots
 
 ![image1Left](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Left.png)
-
 ![image1Right](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Right.png)
-
 ![image2](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/2.png)
-
 ![image3](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/3.png)
+
+---
+## Installation
+
+> If you really want to install it. Make sure you understand everything.
+
+Copy paste this code, then just move the files.
+
+> **WARNING: MAKE SURE TO MAKE A BACKUP BEFORE DOING SO** 
+```
+git clone https://github.com/cjgamos/dotfiles.git
+```
+
 
 
 
