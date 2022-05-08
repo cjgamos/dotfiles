@@ -86,10 +86,13 @@ plugins=(
 
 ## Screenshots
 
-![image1](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Left.png)
+![image1Left](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Left.png)
 
+![image1Right](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/1Right.png)
 
+![image2](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/2.png)
 
+![image3](https://github.com/cjgamos/dotfiles/blob/main/Screenshots/3.png)
 
 
 
