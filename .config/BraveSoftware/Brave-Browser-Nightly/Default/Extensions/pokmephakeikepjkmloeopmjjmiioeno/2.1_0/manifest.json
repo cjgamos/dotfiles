@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon128.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Google Meet AutoExit",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA067LAjb8XX8iB/RrAvtOmtcmKxzZDPad6qEMEhMhSy235NWoB0JZk4h8bGePEshJkka3AjtwtkhPQCvJP5O4oF7niibipQROE3aRItap8leFiaYcGESWUaFD/0VNPLUdsYbYVZToaPTbsaXmuTbu9mM1Ud9/Mi0zrSIqa7W625Dm0TYYDaW6q1TmaYfB4V3eEOmexCPIwN0SmYXUBrTzV6xKP+UWWAgdVPRZnhXioCBoE5/i/2OS9pRJ4NKNou22eLuUDjIjbX+kqYNMMRnznh+XSfZkmOa9Kg3lG9CX24Cxmjk5gGkCPL9h1d7nsrZEEKwqt6HnbssQ7e2I7w8f/wIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Meet AutoExit",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}

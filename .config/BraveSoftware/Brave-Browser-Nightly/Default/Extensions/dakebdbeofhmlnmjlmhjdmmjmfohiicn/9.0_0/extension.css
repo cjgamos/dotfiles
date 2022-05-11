@@ -1,0 +1,179 @@
+.myformgroup {
+  margin-top: -20px;
+}
+
+#upicon {
+  margin-top: -8px;
+}
+#reczoom {
+  display: inline-block;
+  text-align: center;
+  margin-left: 4px;
+  color: inherit;
+}
+
+
+#catchLater {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#rectext {
+  display: inline-block;
+  text-align: center;
+  margin-left: 8px;
+}
+#recdia {
+  display: inline-block;
+  text-align: center;
+  margin-left: 8px;
+  color: inherit;
+  margin-right: -3px;
+}
+
+#shead {
+  margin-left: 38px;
+}
+
+
+
+#warnText {
+  color: red;
+  display: inline-block;
+  text-align: center;
+  margin-left: 8px;
+}
+
+#warnunder {
+  text-decoration: underline;
+  display: inline-block;
+  text-align: center;
+  margin-left: 8px;
+
+}
+#warnMsg {
+  display: inline-block;
+  text-align: center;
+  margin-left: 8px;
+
+}
+#recordButton {
+ margin-left: 5px;
+}
+#headerSpan {
+  display: block;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: -16px;
+}
+#recordingButton {
+  background-color: red;
+  font-style: bold;
+  position: absolute;
+  left: 40%;
+}
+#recordingInput{
+  margin-left: 58px;
+  background-color: red;
+  font-style: bold;
+}
+
+#recordImage {
+  margin-left: 20px;
+  margin-top: -8px;
+  vertical-align: middle;
+  max-width: 5% !important;
+}
+
+#iholder {
+  display: inline-block;
+  position:absolute;
+  left: 50%;
+  top: 10.9%;
+}
+
+
+#mycheckbox {
+  width: 25px;
+  height: 25px;
+   margin-left: 96px;
+   vertical-align: top;
+  margin-top: -3px;
+  /**float:right; **/
+}
+
+#mycheckboxtext {
+  margin-left: 5px;
+  /** float:right; **/
+}
+
+
+.centered-text {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', 'LocalRoboto', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  background: #eeeeee;
+  padding: 2px 0 3px 0;
+  width: min-content;
+  overflow: hidden;
+  font-size: 12px;
+}
+body > * {
+  white-space: nowrap;
+  display: none;
+  padding: 6px 20px;
+  background: #ffffff;
+}
+body .spacer {
+  display: block;
+  padding: 0;
+  margin-bottom: 4px;
+}
+body.not-running #not-running {
+  display: block;
+  font-style: italic;
+}
+body.no-meeting #no-meeting {
+  display: block;
+  font-style: italic;
+}
+body #sponsor{
+	display: block;
+	align-items: center;
+}
+  
+body.in-meeting #enabled,
+body.in-meeting #show-only-video,
+body.in-meeting #advanced-hide-controls,
+body.in-meeting #include-own-video,
+body.in-meeting #auto-enable,
+body.in-meeting #advanced-settings {
+  display: flex;
+  align-items: center;
+}
+body #source-code {
+  display: block;
+}
+#source-code small {
+  border-right: 0.5px solid #cccccc;
+  padding-right: 5px;
+  margin-right: 2px;
+}
+label {
+  color: #999999;
+}
+label:not(.disabled) {
+  cursor: pointer;
+  color: #000000;
+}
+input {
+  margin-right: 8px;
+}

@@ -1,0 +1,65 @@
+{
+   "author": "https://monstainfinite.com",
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/logo/monsta-logo-128.png",
+         "16": "images/logo/monsta-logo-16.png",
+         "19": "images/logo/monsta-logo-19.png",
+         "32": "images/logo/monsta-logo-32.png",
+         "38": "images/logo/monsta-logo-38.png",
+         "48": "images/logo/monsta-logo-48.png",
+         "512": "images/logo/monsta-logo-512.png",
+         "64": "images/logo/monsta-logo-64.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Monsta Wallet"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+M",
+            "linux": "Alt+Shift+M",
+            "mac": "Alt+Shift+M",
+            "windows": "Alt+Shift+M"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "disable-console.js", "globalthis.js", "lockdown-install.js", "lockdown-run.js", "contentscript.js" ],
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "vendor/trezor/content-script.js" ],
+      "matches": [ "*://connect.trezor.io/*/popup.html" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "https://monstachain.org/*" ]
+   },
+   "icons": {
+      "128": "images/logo/monsta-logo-128.png",
+      "16": "images/logo/monsta-logo-16.png",
+      "19": "images/logo/monsta-logo-19.png",
+      "32": "images/logo/monsta-logo-32.png",
+      "38": "images/logo/monsta-logo-38.png",
+      "48": "images/logo/monsta-logo-48.png",
+      "512": "images/logo/monsta-logo-512.png",
+      "64": "images/logo/monsta-logo-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAly5h3VNrmyAy/1W8eBokddKn3adWaGj/kpKqkRGPuV6fODsMqciLrqcF6ytsHNrnhul+T4OGCVXu0rViwMAj/JJZJ/+6NqCZLQdKQIY7Fj9YQqEAlRzTTbd+32/qyuH6u8vmmDVzyHqvXEuWpr2JPYA5BFetp64DyxNUcxOBeYu0xng4ZwWolWWgmO20cw5p64oT7owkAcg00zSMVAu99LTit7rFpHVEja49i89iuKBx/4pErMBDkuXJvMg31wJMAJACbacefQnuwfXfRVFRWhVjXriIBJVHHctypmBhb2wYrfb0gb++FYxTgc9FlVmP4vadSCAexG4RO8gwREzpJwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "66",
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "unlimitedStorage", "clipboardWrite", "activeTab", "webRequest", "notifications" ],
+   "short_name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.3",
+   "web_accessible_resources": [ "inpage.js", "phishing.html" ]
+}

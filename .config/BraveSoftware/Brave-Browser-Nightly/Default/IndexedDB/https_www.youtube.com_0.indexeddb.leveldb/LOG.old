@@ -1,0 +1,14 @@
+2022/05/11-09:41:46.498 47e Creating DB /home/carl/.config/BraveSoftware/Brave-Browser-Nightly/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/05/11-09:41:46.513 47e Reusing MANIFEST /home/carl/.config/BraveSoftware/Brave-Browser-Nightly/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/11-10:11:37.708 8eb Level-0 table #5: started
+2022/05/11-10:11:37.732 8eb Level-0 table #5: 1106349 bytes OK
+2022/05/11-10:11:37.736 8eb Delete type=0 #3
+2022/05/11-10:59:54.129 19ca Level-0 table #7: started
+2022/05/11-10:59:54.188 19ca Level-0 table #7: 1263648 bytes OK
+2022/05/11-10:59:54.192 19ca Delete type=0 #4
+2022/05/11-11:01:08.106 7b0 Compacting 1@1 + 1@2 files
+2022/05/11-11:01:08.122 7b0 Generated table #8@1: 394 keys, 28287 bytes
+2022/05/11-11:01:08.122 7b0 Compacted 1@1 + 1@2 files => 28287 bytes
+2022/05/11-11:01:08.125 7b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/11-11:01:08.125 7b0 Delete type=2 #7
+2022/05/11-11:01:08.125 7b0 Delete type=2 #5

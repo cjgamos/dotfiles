@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/rep_icon128.png",
+         "16": "images/rep_icon16.png",
+         "32": "images/rep_icon32.png",
+         "48": "images/rep_icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Freak's Axie Extension"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "options.js", "traitmapping.js", "contentScript.js" ],
+      "matches": [ "https://marketplace.axieinfinity.com/*" ]
+   } ],
+   "description": "An extension to help play Axie Infinity.",
+   "host_permissions": [ "https://marketplace.axieinfinity.com/*", "https://*.axieinfinity.com/*" ],
+   "icons": {
+      "128": "images/rep_icon128.png",
+      "16": "images/rep_icon16.png",
+      "32": "images/rep_icon32.png",
+      "48": "images/rep_icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhR7Asmf0L5nPbX4M2gKRRUw3XHBEn+isqJGEEB7moK9zmiIWUI5vB+r3esvTg8DaH0gcd4kJlK5JZ0gzZvZpGGS7vXfzg6antj+iOcjeAQwNQdm4gAUlSJeMmwPVJOClq65xgxxb1gCeef7jnmzsLql7QK2bqBBvLqOXL1GR2+KcaS21knFyeEUH8yhmxLEayyO9S618Rj3wNvsRLiuiK5FYNw1yy8nvz4ucjJqy2/bEEbrhHmahGuCq9hubsogNgfcIiDtNhc7R5w8CTQWmQ1vglTJQSk5Szo4u8UTQEbpqZAUQHeYEs4/nRQzkhaHPkvxUQPR8k9wV+k93n7J7nwIDAQAB",
+   "manifest_version": 3,
+   "name": "Freak's Axie Extension",
+   "permissions": [ "activeTab", "declarativeContent", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://marketplace.axieinfinity.com/*" ],
+      "resources": [ "body-parts.json" ]
+   } ]
+}

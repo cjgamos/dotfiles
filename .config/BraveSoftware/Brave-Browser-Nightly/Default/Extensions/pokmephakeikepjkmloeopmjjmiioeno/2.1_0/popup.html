@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="popup.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="if_to_show">
+    <div id="topheading">
+      <h1>AUTOEXIT GOOGLE MEETING</h1>
+    </div>
+
+    <main>
+    <h3>Exit meeting by</h3>
+
+
+    <div id="options">
+      <h2 id="participants_left" class="active">Participants Left</h2>
+      <h2 id="time">Time</h2>
+    </div>
+    <div id="participants_diaologue" class="content">
+      <div class="triangle"></div>
+      <div class="triangle-invert"></div>
+      <p>
+        Enter the number of participants remaining, below which you want to exit the meeting.      
+      </p>
+      <div class="flex">
+      <div id="number-insertion">
+        <svg>
+          <path
+            d="M15 8c0-1.42-.5-2.73-1.33-3.76.42-.14.86-.24 1.33-.24 2.21 0 4 1.79 4 4s-1.79 4-4 4c-.43 0-.84-.09-1.23-.21-.03-.01-.06-.02-.1-.03A5.98 5.98 0 0 0 15 8zm1.66 5.13C18.03 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.58-3.47-6.34-3.87zM9 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 9c-2.7 0-5.8 1.29-6 2.01V18h12v-1c-.2-.71-3.3-2-6-2M9 4c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 9c2.67 0 8 1.34 8 4v3H1v-3c0-2.66 5.33-4 8-4z">
+          </path>
+        </svg>
+        <input type="number" name="number" id="number" min="0" placeholder="A Number"/>
+      </div>
+      <button id="mybutton_number">CONFIRM</button>
+
+    </div>
+    <p class="error"></p>
+    </div>
+
+    <div id="time_diaologue" class="content">
+      <p>Enter the time at which you want to exit the meeting</p>
+      <div class="flex">
+      <input type="time" name="time" id="time-input" />
+      <button id="mybutton_time">CONFIRM</button>
+    </div>
+          <div class="triangle"></div>
+          <div class="triangle-invert"></div>
+    <p class="error"></p>
+    </div>
+    </main>
+  </div>
+
+  <div id="if_not_to_show">
+    <h2>You need to be in a meeting to use the extension</h2>
+  </div>
+
+  <div id="already_used">
+    <div id="main-used">
+    <div id="number-para">
+      <h2>The meeting would automatically be exited when <span></span> particiants are left !!</h2>
+      <div class="flex exit-content">
+        <button class="cancel-everything">Cancel It</button>
+        <button id="done-number">Okay !!!</button>
+      </div>
+    </div>
+    <div id="time-para">
+      <h2>The meeting would automatically be exited at <span></span></h2>
+      <div class="flex exit-content">
+        <button class="cancel-everything">Cancel It</button>
+        <button id="done-time">Okay !!!</button>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  </body>
+  <script src="popup.js"></script>
+
+</html>

@@ -1,0 +1,4 @@
+2022/05/08-07:52:28.503 44d1 Reusing MANIFEST /home/carl/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/05/08-07:52:28.504 44d1 Recovering log #4
+2022/05/08-07:52:28.506 44d1 (ignoring error) /home/carl/.config/discord/Local Storage/leveldb/000004.log: dropping 25 bytes; Corruption: missing start of fragmented record(2)
+2022/05/08-07:52:28.506 44d1 Reusing old log /home/carl/.config/discord/Local Storage/leveldb/000004.log 

@@ -1,0 +1,37 @@
+<svg width="176" height="160" viewBox="0 0 176 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="88.125" cy="80" r="65" fill="white" fill-opacity="0.05"/>
+<circle cx="87.125" cy="80" r="80" fill="white" fill-opacity="0.05"/>
+<circle cx="155.625" cy="31.5" r="3.75" stroke="white" stroke-opacity="0.7" stroke-width="1.5"/>
+<circle cx="44.625" cy="130.5" r="3.75" stroke="white" stroke-opacity="0.7" stroke-width="1.5"/>
+<rect x="49.875" y="2.75" width="7.5" height="7.5" stroke="white" stroke-opacity="0.7" stroke-width="1.5"/>
+<rect x="167.375" y="79.75" width="7.5" height="7.5" stroke="white" stroke-opacity="0.4" stroke-width="1.5"/>
+<path d="M2.47789 98.25L6.375 91.5L10.2721 98.25H2.47789Z" stroke="white" stroke-opacity="0.7" stroke-width="1.5"/>
+<path d="M118.228 156.25L122.125 149.5L126.022 156.25H118.228Z" stroke="white" stroke-opacity="0.4" stroke-width="1.5"/>
+<g opacity="0.2">
+<path d="M16.6216 62.4395L23.4985 65.4325" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M21.5564 60.4961L18.5634 67.373" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g opacity="0.4">
+<path d="M110.373 7.875L114.123 14.3702" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M115.495 9.24805L109 12.998" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g opacity="0.7">
+<path d="M137.622 107.439L144.498 110.432" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M142.556 105.496L139.563 112.373" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<circle cx="88" cy="80" r="50" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M73.8136 102.754C70.631 106.575 64.1239 114.157 62.6829 122.238M72.2462 127.109C74.6371 123.05 77.5967 114.218 77.4165 111.211" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M72.9378 88.0918C70.7449 87.715 65.6239 87.0745 62.6829 87.5266M72.9378 92.0479C70.8094 92.2363 65.9335 93.103 63.4568 95.0623" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M103.703 103.395C106.632 105.787 112.59 111.769 114.599 121.341" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M81.6306 103.395C53.8676 103.027 56.5949 82.6498 60.0499 71.1338C56.2001 65.9884 55.7312 54.84 56.7183 51.1035C63.2334 49.9274 71.1551 52.9411 74.3016 54.595C79.484 52.6349 94.4678 51.1486 103.5 56" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M101 54.5C104.104 52.8403 112.057 49.9237 118.484 51.1039C119.458 54.8536 120.273 65.7746 116.476 70.938C119.884 82.4944 126.006 103.247 101.322 103.394" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<ellipse cx="80.6292" cy="82.5639" rx="3.20468" ry="2.88421" fill="#FF842D"/>
+<circle cx="104.664" cy="82.5639" r="2.88421" fill="#FF842D"/>
+<path d="M113.958 88.653C115.753 88.0359 120.06 86.95 122.931 87.5423" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M113.958 92.5C115.702 92.7442 119.81 93.5987 122.29 95.0637" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<ellipse cx="95.0503" cy="85.1274" rx="1.60234" ry="0.961404" fill="#FF842D"/>
+<path d="M115.236 54.5776L107.368 56.8909C107.213 56.9365 107.173 57.1379 107.3 57.239L114.932 63.3459C115.061 63.449 115.252 63.3603 115.257 63.1953L115.492 54.7751C115.496 54.6393 115.366 54.5393 115.236 54.5776Z" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M62.433 64.665L60.5624 55.312C60.5335 55.1675 60.6655 55.0424 60.8082 55.0791L70.6432 57.6017C70.8 57.6419 70.8466 57.8419 70.7237 57.9472L62.7593 64.7776C62.6433 64.8771 62.463 64.8149 62.433 64.665Z" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M103.062 110.445C105.626 114.031 107.762 122.398 108.189 125.187" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M85.3389 87.5574C84.1234 90.3522 87.9724 92.2154 94.455 88.489C97.0885 90.0417 102.234 91.9918 101.748 87.3711" stroke="#FF842D" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
