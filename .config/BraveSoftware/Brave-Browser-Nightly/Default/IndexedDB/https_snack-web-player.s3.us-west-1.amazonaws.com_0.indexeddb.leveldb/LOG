@@ -1,6 +1,0 @@
-2022/05/11-10:22:24.113 13ca Creating DB /home/carl/.config/BraveSoftware/Brave-Browser-Nightly/Default/IndexedDB/https_snack-web-player.s3.us-west-1.amazonaws.com_0.indexeddb.leveldb since it was missing.
-2022/05/11-10:22:24.120 13ca Reusing MANIFEST /home/carl/.config/BraveSoftware/Brave-Browser-Nightly/Default/IndexedDB/https_snack-web-player.s3.us-west-1.amazonaws.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/11-10:24:08.034 1047 Level-0 table #5: started
-2022/05/11-10:24:08.036 1047 Level-0 table #5: 1434 bytes OK
-2022/05/11-10:24:08.040 1047 Delete type=0 #3
-2022/05/11-10:24:08.040 1047 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
