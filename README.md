@@ -3,7 +3,7 @@
 **Warning**: This is my personal dotfiles don't copy unless you know what you are doing
 
 ---
-## i3wm Dependencies / Configs
+## i3wm Dependencies / Configs / Mostly Used
 
 [i3wm](https://i3wm.org/) - A tiling window manager, completely written from scratch.
 
